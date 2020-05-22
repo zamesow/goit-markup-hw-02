@@ -1,0 +1,72 @@
+/* цвет заголовков  #212121 */
+/* основной цвет текста #757575 */
+/* акцент #2196f3 */
+/* цвет фона #e5e5e5 */
+/* фон преимуществ и команды #f5f4fa */
+/* фон футера #2f303a */
+/* wdtn клиентских лого-иконок #AFB1B8 */
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+}
+.logo span {
+  color: #2196f3;
+}
+
+.link a {
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+
+.section-img,
+.team {
+  background-color: #f5f4fa;
+}
+
+.link a:hover,
+.link a:focus,
+.adr-link:focus,
+.section-item:hover,
+.section-item:focus,
+.soc-link:hover,
+.soc-link:focus,
+.clients a:hover,
+.clients a:focus {
+  color: #2196f3;
+}
+
+.nav-adr a,
+.section-text {
+  color: #757575;
+}
+
+.nav,
+.hero,
+.white-title,
+.address,
+.footer .logo {
+  color: #ffffff;
+}
+
+.section-title {
+  color: #212121;
+}
+
+.adr-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.copy {
+  color: rgba(255, 255, 255, 0.4);
+}
