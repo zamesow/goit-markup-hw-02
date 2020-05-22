@@ -24,15 +24,15 @@
     </header>
     <main>
       <!--Фильтр-->
-      <section>
+      <section class="filter">
         <!--Скрытый заголовок Фильтра-->
         <h2>Фильтр</h2>
-        <ul>
-          <li>Все</li>
-          <li>Веб-сайты</li>
-          <li>Приложения</li>
-          <li>Дизайн</li>
-          <li>Маркетинг</li>
+        <ul class="filter-list">
+          <li class="filter-item">Все</li>
+          <li class="filter-item">Веб-сайты</li>
+          <li class="filter-item">Приложения</li>
+          <li class="filter-item">Дизайн</li>
+          <li class="filter-item">Маркетинг</li>
         </ul>
         <ul>
           <li>
@@ -42,8 +42,8 @@
               width="370"
               height="294"
             />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <h3 class="section-title">Технокряк</h3>
+            <p class="section-text">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -52,8 +52,8 @@
               width="370"
               height="294"
             />
-            <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <h3 class="section-title">Постер New Orlean vs Golden Star</h3>
+            <p class="section-text">Дизайн</p>
           </li>
           <li>
             <img
@@ -62,8 +62,8 @@
               width="370"
               height="294"
             />
-            <h3>Ресторан Seafood</h3>
-            <p>Дизайн</p>
+            <h3 class="section-title">Ресторан Seafood</h3>
+            <p class="section-text">Дизайн</p>
           </li>
           <li>
             <img
@@ -72,8 +72,8 @@
               width="370"
               height="294"
             />
-            <h3>Проект Prime</h3>
-            <p>Маркетинг</p>
+            <h3 class="section-title">Проект Prime</h3>
+            <p class="section-text">Маркетинг</p>
           </li>
           <li>
             <img
@@ -82,8 +82,8 @@
               width="370"
               height="294"
             />
-            <h3>Проект Boxes</h3>
-            <p>Дизайн</p>
+            <h3 class="section-title">Проект Boxes</h3>
+            <p class="section-text">Дизайн</p>
           </li>
           <li>
             <img
@@ -92,8 +92,8 @@
               width="370"
               height="294"
             />
-            <h3>Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <h3 class="section-title">Inspiration has no Borders</h3>
+            <p class="section-text">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -102,8 +102,8 @@
               width="370"
               height="294"
             />
-            <h3>Издание Limited Edition</h3>
-            <p>Дизайн</p>
+            <h3 class="section-title">Издание Limited Edition</h3>
+            <p class="section-text">Дизайн</p>
           </li>
           <li>
             <img
@@ -112,8 +112,8 @@
               width="370"
               height="294"
             />
-            <h3>Проект LAB</h3>
-            <p>Маркетинг</p>
+            <h3 class="section-title">Проект LAB</h3>
+            <p class="section-text">Маркетинг</p>
           </li>
           <li>
             <img
@@ -122,42 +122,52 @@
               width="370"
               height="294"
             />
-            <h3>Growing Business</h3>
-            <p>Дизайн</p>
+            <h3 class="section-title">Growing Business</h3>
+            <p class="section-text">Дизайн</p>
           </li>
         </ul>
       </section>
     </main>
     <!--Подвал-->
-    <footer>
+    <footer class="footer">
       <!--Адресс-->
       <div>
-        <a href="./index.html"><span>Web</span> Studio </a>
-        <address>
+        <a class="footer logo" href="./index.html"><span>Web</span> Studio </a>
+        <address class="address">
           г. Киев, пр-т Леси Украинки, 26
-          <a href="mailto:info@devstudio.com">info@devstudio.com </a>
-          <a href="tel:+380961111111">+38 096 111 11 11 </a>
+          <a class="adr-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com
+          </a>
+          <a class="adr-link" href="tel:+380961111111">+38 096 111 11 11 </a>
         </address>
       </div>
       <!--Список ссылок-->
       <div>
-        <p>ПРИСОЕДИНЯЙТЕСЬ</p>
-        <ul>
-          <li><a href="" aria-label="Ссылка на Facebook"></a>Instagram</li>
-          <li><a href="" aria-label="Ссылка на Twitter"></a>Twitter</li>
-          <li><a href="" aria-label="Ссылка на Facebook"></a>Facebook</li>
-          <li><a href="" aria-label="Ссылка на LinkedIn"></a>LinkedIn</li>
+        <p class="white-title">ПРИСОЕДИНЯЙТЕСЬ</p>
+        <ul class="social-links">
+          <li class="soc-link">
+            <a href="" aria-label="Ссылка на Facebook"></a>Instagram
+          </li>
+          <li class="soc-link">
+            <a href="" aria-label="Ссылка на Twitter"></a>Twitter
+          </li>
+          <li class="soc-link">
+            <a href="" aria-label="Ссылка на Facebook"></a>Facebook
+          </li>
+          <li class="soc-link">
+            <a href="" aria-label="Ссылка на LinkedIn"></a>LinkedIn
+          </li>
         </ul>
       </div>
       <!--Подписка-->
       <div>
-        <p>Подпишитесь на рассылку</p>
-        <p>E-mail</p>
-        <a href=""
+        <p class="white-title">Подпишитесь на рассылку</p>
+        <p class="adr-link">E-mail</p>
+        <a class="white-title" href=""
           >Подписаться<img src="./images/icon-send.svg" alt="Иконка"
         /></a>
       </div>
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="copy">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>

@@ -26,7 +26,8 @@ ul {
 }
 
 .section-img,
-.team {
+.team,
+.filter-item {
   background-color: #f5f4fa;
 }
 
@@ -38,7 +39,9 @@ ul {
 .soc-link:hover,
 .soc-link:focus,
 .clients a:hover,
-.clients a:focus {
+.clients a:focus,
+.filter-item:hover,
+.filter-item:focus {
   color: #2196f3;
 }
 
@@ -58,7 +61,11 @@ ul {
   color: #ffffff;
 }
 
-.section-title {
+.section-title,
+.subtitle,
+.team-title,
+.team-name,
+.filter-list {
   color: #212121;
 }
 
