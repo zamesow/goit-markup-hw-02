@@ -4,7 +4,7 @@
 /* цвет фона #e5e5e5 */
 /* фон преимуществ и команды #f5f4fa */
 /* фон футера #2f303a */
-/* wdtn клиентских лого-иконок #AFB1B8 */
+/* цвет клиентских лого-иконок #AFB1B8 */
 
 ul {
   list-style: none;
@@ -47,11 +47,14 @@ ul {
   color: #757575;
 }
 
-.nav,
+.team-card {
+  background-color: #ffffff;
+}
+
+.footer .logo,
 .hero,
 .white-title,
-.address,
-.footer .logo {
+.address {
   color: #ffffff;
 }
 
