@@ -1,19 +1,12 @@
-/* цвет заголовков  #212121 */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --primary-background-color: #ffffff;
-  --secondary-background-color: #f5f4fa;
+  --primary-white-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
 }
-/* основной цвет текста  */
-/* акцент #2196f3 */
-/* цвет фона #e5e5e5 */
-/* фон преимуществ и команды #f5f4fa */
-/* фон футера #2f303a */
-/* цвет клиентских лого-иконок #AFB1B8 */
 
-/* поменять все цвета на var */
+/* цвет клиентских лого-иконок #AFB1B8 */
 
 ul {
   list-style: none;
@@ -25,12 +18,14 @@ ul {
   color: #000000;
 }
 
+/* преимущ. и команда */
 .section-img,
 .team,
 .filter-item {
-  background-color: var(--secondary-background-color);
+  background-color: var(--secondary-bg-color);
 }
 
+/* всё цветом акцента */
 .logo span,
 .link a:hover,
 .link a:focus,
@@ -46,23 +41,27 @@ ul {
   color: var(--accent-color);
 }
 
+/* цвет адресов в хедере */
 .nav-adr a,
 .section-text {
   color: var(--primary-text-color);
 }
 
+/* основной фон */
 main,
 .team-card {
-  background-color: var(--primary-background-color);
+  background-color: var(--primary-white-color);
 }
 
+/* вторичный фон */
 .footer .logo,
 .hero,
 .white-title,
 .address {
-  color: var(--primary-background-color);
+  color: var(--primary-white-color);
 }
 
+/* заголовки */
 .nav-list a,
 .section-title,
 .subtitle,
@@ -72,6 +71,7 @@ main,
   color: var(--title-text-color);
 }
 
+/* адрес в футере */
 .adr-link {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -80,6 +80,13 @@ main,
   background-color: #2f303a;
 }
 
+/* права */
 .copy {
   color: rgba(255, 255, 255, 0.4);
+}
+
+/* button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
