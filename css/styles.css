@@ -1,23 +1,17 @@
 /* цвет заголовков  #212121 */
-/* основной цвет текста #757575 */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+}
+/* основной цвет текста  */
 /* акцент #2196f3 */
 /* цвет фона #e5e5e5 */
 /* фон преимуществ и команды #f5f4fa */
 /* фон футера #2f303a */
 /* цвет клиентских лого-иконок #AFB1B8 */
-
-/* :root {
-  --primary-text-color: rgba(0, 0, 0, 1);
-  --title-text-color: #000000;
-  --accent-color: #18a0fb;
-}
-.everybody {
-  color: var(--primary-text-color);
-}
-.lorgo:hover {
---new-accent: red;
-color: var(--new-accent)
-} */
 
 /* поменять все цвета на var */
 
@@ -30,22 +24,14 @@ ul {
   line-height: 31px;
   color: #000000;
 }
-.logo span {
-  color: #2196f3;
-}
-
-.link a {
-  font-size: 14px;
-  line-height: 16px;
-  color: #212121;
-}
 
 .section-img,
 .team,
 .filter-item {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
 }
 
+.logo span,
 .link a:hover,
 .link a:focus,
 .adr-link:focus,
@@ -57,31 +43,33 @@ ul {
 .clients a:focus,
 .filter-item:hover,
 .filter-item:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .nav-adr a,
 .section-text {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
+main,
 .team-card {
-  background-color: #ffffff;
+  background-color: var(--primary-background-color);
 }
 
 .footer .logo,
 .hero,
 .white-title,
 .address {
-  color: #ffffff;
+  color: var(--primary-background-color);
 }
 
+.nav-list a,
 .section-title,
 .subtitle,
 .team-title,
 .team-name,
 .filter-list {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .adr-link {
