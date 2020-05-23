@@ -84,7 +84,7 @@ button {
 .clients a:hover,
 .clients a:focus,
 button:hover,
-.button-sec .folow:not(:hover),
+.folow:not(:hover),
 button:focus {
   color: var(--accent-color);
 }
