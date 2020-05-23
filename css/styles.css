@@ -6,6 +6,21 @@
 /* фон футера #2f303a */
 /* цвет клиентских лого-иконок #AFB1B8 */
 
+/* :root {
+  --primary-text-color: rgba(0, 0, 0, 1);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+}
+.everybody {
+  color: var(--primary-text-color);
+}
+.lorgo:hover {
+--new-accent: red;
+color: var(--new-accent)
+} */
+
+/* поменять все цвета на var */
+
 ul {
   list-style: none;
 }
