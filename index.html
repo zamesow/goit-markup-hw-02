@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -12,7 +16,7 @@
       <nav class="nav">
         <a class="logo" href="./index.html"><span>Web</span> Studio </a>
         <ul class="nav-list link">
-          <li><a href="./index.html">Студия</a></li>
+          <li><a class="nav current" href="./index.html">Студия</a></li>
           <li><a href="./portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
@@ -25,8 +29,8 @@
     <main class="main">
       <!--Герой-->
       <section class="hero">
-        <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <p class="button">Заказать услугу</p>
+        <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <p class="button-prim service">Заказать услугу</p>
       </section>
       <!--Преимущества-->
       <section class="section">
@@ -239,9 +243,10 @@
       <div class="white-title">
         <p>Подпишитесь на рассылку</p>
         <p class="adr-link">E-mail</p>
-        <a class="button" href=""
-          >Подписаться<img src="./images/icon-send.svg" alt="Иконка"
-        /></a>
+        <a class="button-sec" href=""
+          ><button type="button" class="folow">
+            Подписаться<img src="./images/icon-send.svg" alt="Иконка" /></button
+        ></a>
       </div>
       <p class="copy">2020 | Developed by GoIT Students</p>
     </footer>

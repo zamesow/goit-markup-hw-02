@@ -1,3 +1,6 @@
+/* Шрифты index: Raleway - 400, Roboto - 900, 700, 500, 400 */
+/* Шрифты portfolio: Raleway - 400, Roboto - 700, 500, 400 */
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -12,20 +15,64 @@ ul {
   list-style: none;
 }
 
-.logo {
-  font-size: 26px;
-  line-height: 31px;
-  color: #000000;
+/* Header */
+header {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
-/* преимущ. и команда */
+/* Logo */
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/* Hero */
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* ЗАМЕНИТЬ НА ФОН */
+  background-color: #212121;
+}
+
+.button-prim.service {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* преимущества, команда, фильтр */
 .section-img,
 .team,
-.filter-item {
+button {
   background-color: var(--secondary-bg-color);
+  font-family: inherit;
 }
 
-/* всё цветом акцента */
+.subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* всё, что с цветом акцента */
+.nav.current,
 .logo span,
 .link a:hover,
 .link a:focus,
@@ -36,8 +83,9 @@ ul {
 .soc-link:focus,
 .clients a:hover,
 .clients a:focus,
-.filter-item:hover,
-.filter-item:focus {
+button:hover,
+.button-sec .folow:not(:hover),
+button:focus {
   color: var(--accent-color);
 }
 
@@ -48,20 +96,22 @@ ul {
 }
 
 /* основной фон */
-main,
+body,
 .team-card {
   background-color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
-/* вторичный фон */
-.footer .logo,
+/* Белые заголовки */
+footer .logo,
 .hero,
 .white-title,
 .address {
   color: var(--primary-white-color);
 }
 
-/* заголовки */
+/* Черные заголовки */
 .nav-list a,
 .section-title,
 .subtitle,
@@ -78,6 +128,7 @@ main,
 
 .footer {
   background-color: #2f303a;
+  letter-spacing: 0.03em;
 }
 
 /* права */
@@ -86,7 +137,14 @@ main,
 }
 
 /* button */
-.button {
+.button-prim,
+.button-sec .folow {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+}
+
+/* все ссылки */
+a {
+  text-decoration: none;
 }
