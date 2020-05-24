@@ -192,3 +192,29 @@ footer .logo,
 a {
   text-decoration: none;
 }
+
+/* -------- PORTFOLIO ----------- */
+
+/* Filter */
+.filter-item button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+
+/* filter-list */
+.section-title-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.section-text-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
