@@ -84,8 +84,8 @@ button {
 .clients a:hover,
 .clients a:focus,
 button:hover,
-.folow:not(:hover),
-button:focus {
+button:focus,
+.folow:not(:hover) {
   color: var(--accent-color);
 }
 
@@ -93,6 +93,7 @@ button:focus {
 .nav-adr a,
 .section-text {
   color: var(--primary-text-color);
+  font-style: normal;
 }
 
 /* основной фон */
@@ -111,17 +112,53 @@ footer .logo,
   color: var(--primary-white-color);
 }
 
+/* Чем мы занимаемся? */
+.work .white-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* Черные заголовки */
 .nav-list a,
 .section-title,
 .subtitle,
-.team-title,
-.team-name,
+.name,
 .filter-list {
   color: var(--title-text-color);
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Team */
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section-text.name {
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
 /* адрес в футере */
+.address,
+.copy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
 .adr-link {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -129,6 +166,13 @@ footer .logo,
 .footer {
   background-color: #2f303a;
   letter-spacing: 0.03em;
+}
+
+.footer .white-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* права */
